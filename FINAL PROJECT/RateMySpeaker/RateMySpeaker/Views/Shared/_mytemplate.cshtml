@@ -20,14 +20,14 @@
 </head>
 <body>
     <header id="header">
-        <h1><a href="#">Rate My Speaker</a></h1>
+        <h1>@Html.ActionLink("Rate My Speaker", "Index", "Home")</h1>
         <nav class="links">
             <ul>
-                <li><a href="#">About</a></li> <!--Lorem-->
-                <li><a href="#">Speakers</a></li> <!--Ipsum-->
-                <li><a href="#">Conferences</a></li> <!--Feugiat-->
-                <li><a href="#">FAQ</a></li> <!--Tempus-->
-                <li><a href="#">Rate A Speaker</a></li> <!--Adipiscing-->
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Conferences", "About", "Home")</li>
+                <li>@Html.ActionLink("Speakers", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+
             </ul>
         </nav>
         <nav class="main">
