@@ -26,5 +26,11 @@ namespace RateMySpeaker.Controllers
 
             return View();
         }
+
+        public ActionResult Speakers()
+        {
+            return View();
+        }
+
     }
 }
