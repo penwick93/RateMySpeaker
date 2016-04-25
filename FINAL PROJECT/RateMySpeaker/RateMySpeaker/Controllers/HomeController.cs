@@ -20,6 +20,11 @@ namespace RateMySpeaker.Controllers
             return View();
         }
 
+        public ActionResult Conferences()
+        {
+            return View("Conferences");
+        }
+
         public ActionResult Contact()
         {
        
@@ -31,6 +36,8 @@ namespace RateMySpeaker.Controllers
         {
             return View();
         }
+
+        
 
     }
 }
