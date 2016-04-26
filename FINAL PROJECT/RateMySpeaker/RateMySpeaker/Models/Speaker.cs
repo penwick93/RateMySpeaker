@@ -13,7 +13,7 @@ namespace RateMySpeaker.Models
         public int ID { get; set; }
 
         [Required(ErrorMessage="Please enter the name of the speaker.")]
-        [Display(Name="Name")]
+        [Display(Name="Speaker Name")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please enter the name of the conference where you saw the speaker.")]
@@ -25,10 +25,14 @@ namespace RateMySpeaker.Models
         [Display(Name = "Rating")]
         public int Rating { get; set; }
 
-        [Required(ErrorMessage ="Please review the speaker in less than 500 characters.")]
-        [Display(Name ="Review")]
+        [Required(ErrorMessage = "Please review the speaker in less than 500 characters.")]
+        [Display(Name = "Review")]
         [StringLength(500)]
         public string Review { get; set; }
+
+        public ApplicationUser ApplicationUsers { get; set; }
+
+
     }
 
     public class SpeakerDBContext : DbContext

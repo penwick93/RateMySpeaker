@@ -32,5 +32,7 @@ namespace RateMySpeaker.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<RateMySpeaker.Models.Speaker> Speakers { get; set; }
     }
 }

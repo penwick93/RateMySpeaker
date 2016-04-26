@@ -72,6 +72,8 @@ namespace RateMySpeaker.Models
         [Display(Name = "Last Name")]
         public string lastName { get; set; }
 
+        public int userID { get; set; }
+
       
         [Required]
         [EmailAddress]
@@ -88,6 +90,8 @@ namespace RateMySpeaker.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public Speaker Speakers { get; set; }
     }
 
     public class ResetPasswordViewModel
