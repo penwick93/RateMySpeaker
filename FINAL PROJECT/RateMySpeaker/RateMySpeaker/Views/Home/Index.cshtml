@@ -11,14 +11,25 @@
     <article class="post">
         <header>
             <div class="title">
-                <h2><a href="#">Rate My Speaker</a></h2>
-                <p>slogan goes here</p>
+                <style>
+                    h2 {
+                       align-content:center;
+                        }
+                </style>
+                <h2>Rate My Speaker</h2>
+                  
+                <button class="button big fit">
+                    @Html.ActionLink("Rate A Speaker", "Login", "Account")
+                </button>
+                   
+          
             </div>
             <div class="meta">
                 <time class="published" datetime="2015-11-01">April 27, 2016</time>
                 <a href="#" class="author"><span class="name">CIS 411 Final Project</span><img src="@Url.Content("~/Content/MyTemplate/")images/flower-avatar.png" alt="" /></a>
             </div>
         </header>
+
         <h1>Welcome to Rate My Speaker!</h1>
         <a href="#" class="image featured"><img src="@Url.Content("~/Content/MyTemplate/")images/welcome.png" alt="" /></a>
         <h1>Click Continue Reading to learn about the Rate My Speaker Project!</h1>
@@ -87,7 +98,7 @@
     </article>
 
     <!-- Post -->
-    <!--
+    
                                 <article class="post">
                                     <header>
                                         <div class="title">
@@ -400,12 +411,14 @@
 
                                 </article>
                             -->
+
+
     <!-- Pagination -->
-    <ul class="actions pagination">
+    <!--<ul class="actions pagination">
         <li><a href="" class="disabled button big previous">Previous Page</a></li>
         <li><a href="#" class="button big next">Next Page</a></li>
     </ul>
-
+    -->
 </div>
 
 <!-- Sidebar -->
@@ -432,7 +445,7 @@
             <!-- Mini Post -->
             <article class="mini-post">
                 <header>
-                    <h3><a href="#">Sarah Lacy - Founder, Editor-in-Chief & CEO, PandoMedia </a></h3>
+                    <h3><a href="http://www.apbspeakers.com/speaker/sarah-lacy">Sarah Lacy - Founder, Editor-in-Chief & CEO, PandoMedia </a></h3>
                     <time class="published" datetime="2015-10-20">Date here</time>
                 </header>
                 <a href="#" class="image"><img src="@Url.Content("~/Content/MyTemplate/")images/sarah-lacy.png" alt="" /></a>
@@ -441,7 +454,7 @@
             <!-- Mini Post -->
             <article class="mini-post">
                 <header>
-                    <h3><a href="#">Jeff Taylor - Founder of Monster.com & Eons.com</a></h3>
+                    <h3><a href="http://www.apbspeakers.com/resources/speakerpdf/1000381.pdf">Jeff Taylor - Founder of Monster.com & Eons.com</a></h3>
                     <time class="published" datetime="2015-10-19">Date here</time>
                 </header>
                 <a href="#" class="image"><img src="@Url.Content("~/Content/MyTemplate/")images/jeff-taylor.png" alt="" /></a>
@@ -450,7 +463,7 @@
             <!-- Mini Post -->
             <article class="mini-post">
                 <header>
-                    <h3><a href="#">The Winklevoss Twins - Entrepreneurs, Investors & Bitcoin Experts</a></h3>
+                    <h3><a href="http://www.apbspeakers.com/speaker/winklevoss-twins">The Winklevoss Twins - Entrepreneurs, Investors & Bitcoin Experts</a></h3>
                     <time class="published" datetime="2015-10-18">Date here</time>
                 </header>
                 <a href="#" class="image"><img src="@Url.Content("~/Content/MyTemplate/")images/winklevoss-twins.png" alt="" /></a>
@@ -459,7 +472,7 @@
             <!-- Mini Post -->
             <article class="mini-post">
                 <header>
-                    <h3><a href="#">Alexandra Wilkis Wilson - Entrepreneur, Author & Co-Founder of Gilt and GlamSquad</a></h3>
+                    <h3><a href="http://www.apbspeakers.com/resources/speakerpdf/1008481.pdf">Alexandra Wilkis Wilson - Entrepreneur, Author & Co-Founder of Gilt and GlamSquad</a></h3>
                     <time class="published" datetime="2015-10-17">Date here</time>
                 </header>
                 <a href="#" class="image"><img src="@Url.Content("~/Content/MyTemplate/")images/alexandra-wilson.png" alt="" /></a>
