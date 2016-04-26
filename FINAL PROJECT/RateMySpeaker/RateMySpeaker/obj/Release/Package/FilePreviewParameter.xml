@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="RateMySpeaker" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Paige\\Documents\\Spring\ 2016\\CIS\ 411\\RateMySpeaker\\FINAL\ PROJECT\\RateMySpeaker\\RateMySpeaker\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Paige\\Documents\\Spring\ 2016\\CIS\ 411\\RateMySpeaker\\FINAL\ PROJECT\\RateMySpeaker\\RateMySpeaker\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:ratemyspeaker.database.windows.net,1433;Initial Catalog=RateMySpeaker330;User Id=dreamteam@ratemyspeaker;Password=CIS411final" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Paige\\Documents\\Spring\ 2016\\CIS\ 411\\RateMySpeaker\\FINAL\ PROJECT\\RateMySpeaker\\RateMySpeaker\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
